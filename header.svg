@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420"
+     preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#2AABEE"/>
+      <stop offset=".55" stop-color="#229ED9"/>
+      <stop offset="1"   stop-color="#156C9C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#ffffff" opacity=".16"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#hg)"/>
+  <circle cx="180"  cy="80"  r="250" fill="url(#glow)"/>
+  <circle cx="1050" cy="340" r="290" fill="url(#glow)"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+</svg>
